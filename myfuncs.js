@@ -126,4 +126,7 @@ $(document).ready(function(){
         }
     }
 
+    /* Номер пункта в выпадающем списке */
+    $(".class select").children("option:selected").index();
+    
 }
